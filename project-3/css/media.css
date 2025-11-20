@@ -1,0 +1,215 @@
+/* for  phone*/
+
+
+
+
+@media (min-width:375px) and (max-width:650px){
+
+    html{
+
+        font-size: 8px;
+    }
+    
+
+    #header .navbar .logo{
+        float: none;
+        width: 100%;
+    }
+
+
+      #header .navbar .navbar-items{
+        float: none;
+        width: 100%;
+    }
+
+
+    .navbar{
+        text-align: center;
+    }
+
+    .header-content h1{
+        display: none;
+    }
+
+
+    .header-content{
+        width: 80%;
+    }
+
+
+    .boxwrapper1 .img-box1 , .boxwrapper1 .text-box1{
+        float: none;
+        width: 100%;
+
+    }
+
+       .boxwrapper2 .img-box2 , .boxwrapper2 .text-box2{
+        float: none;
+        width: 100%;
+
+    }
+ .boxwrapper3 .img-box3 , .boxwrapper3 .text-box3{
+        float: none;
+        width: 100%;
+
+    }
+
+    .box {
+        height: 100%;
+        text-align: center;
+    }
+
+
+    .features .wrapper-box{
+        float: none;
+        width: 100%;
+        margin-bottom: 2rem ;
+    }
+
+}
+
+
+/* for ipad */
+
+@media (min-width:651px) and (max-width:1160px){
+
+ html{
+
+        font-size: 8px;
+    }
+    
+
+    .navbar{
+        text-align: center;
+    }
+
+
+
+    .header-content{
+        width: 80%;
+    }
+
+    
+
+    .boxwrapper1 .img-box1 , .boxwrapper1 .text-box1{
+        float: none;
+        width: 100%;
+
+    }
+
+       .boxwrapper2 .img-box2 , .boxwrapper2 .text-box2{
+        float: none;
+        width: 100%;
+
+    }
+ .boxwrapper3 .img-box3 , .boxwrapper3 .text-box3{
+        float: none;
+        width: 100%;
+
+    }
+
+    .box {
+        height: 100%;
+        text-align: center;
+    }
+
+
+    .features .wrapper-box{
+        float: none;
+        width: 100%;
+        margin-bottom: 2rem ;
+        /* border: 2px solid black; */
+    }      
+
+}
+
+
+
+
+
+
+/*  about media querey */
+
+
+
+
+@media (min-width:375px) and (max-width:650px){
+
+   
+ html{
+
+        font-size: 8px;
+    }
+
+
+    .container .logo , .navbar-items{
+        text-align: center;
+        width: 100%;
+
+    }
+    
+
+  .container .about-heading  {
+    text-align: center;
+    padding: 3rem;
+
+}
+
+
+.abt-para{
+    font-size: 15px;
+    width: 100%;
+}
+
+
+.about-content-box .box-box1 {
+    
+    width: 250px;
+    float: right;
+    text-align: center;
+    display: block;
+}   
+
+
+.about-content-box  .box-box2 {
+    float: right;
+    width: 250px;
+    text-align: center;
+    justify-items: center;      
+
+}
+
+
+/* **************************************8 */
+
+
+.count-1,.count-2,.count-3,.count-4{
+    display: inline-block;
+    float: none;
+}
+
+
+/* ********************************* */
+
+
+
+.cta-banner-box1{
+    border: 2px solid black;
+    height: 100%;
+}
+
+
+.cta-text{
+    display: inline-block;
+    text-align: center;
+}
+
+.btn{
+    float: none;
+    display: inline-block;
+    /* width: 100%; */
+}
+
+
+
+}
