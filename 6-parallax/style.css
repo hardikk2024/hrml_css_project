@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+#main-div{
+    height: 100vh;
+    overflow-x: hidden;
+    perspective: 10px;
+}
+
+
+
+.container{
+
+    position:relative;  
+    height: 100%;
+    display:flex;
+
+    justify-content: center;
+
+    align-items: center;
+    transform-style: preserve-3d;
+    z-index: -1;
+
+}
+
+
+.background{
+    /* object-fit: cover; */
+    transform: translateZ(-40px) scale(5);
+}
+
+.foreground{
+    /* object-fit: cover; */
+     transform: translateZ(-20px) scale(3);
+}
+
+.background, .foreground{
+    position:absolute;
+    height:100%;
+    width:100%;
+    object-fit: cover;
+    z-index:-1;
+}
+
+
+h1{
+    color: #ffffff;
+    text-shadow: 10px 10px 10px black;
+    font-size: 10rem;
+    position: absolute;
+    letter-spacing: 3px;
+    top: 10px;
+    
+}
